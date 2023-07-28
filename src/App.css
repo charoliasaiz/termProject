@@ -1,0 +1,114 @@
+.employee-table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  align-items: center;
+}
+
+.employee-table th, .employee-table td {
+  padding: 8px;
+  border: 2px solid #000000;
+}
+
+h1{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+}
+
+.searchbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.searchbar h2 {
+  margin-bottom: 10px;
+}
+
+.searchbar form {
+  display: flex;
+  align-items: center;
+}
+
+.searchbar label {
+  margin-right: 10px;
+}
+
+.searchbar input[type="text"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.searchbar button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.searchbar button:hover {
+  background-color: #0056b3;
+}
+
+.newForm, .updateForm {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.newForm h2,
+.updateForm h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.newForm form,
+.updateForm form { display: flex;
+  flex-direction: column;
+}
+
+.newForm label,
+.updateForm label {
+  margin-bottom: 5px;
+}
+
+.newForm input[type="text"],
+.updateForm input[type="text"] {
+  padding: 5px;
+  margin-bottom: 10px;
+  padding-left: 100px;
+}
+
+.newForm button[type="submit"],
+.updateForm button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.newForm button[type="submit"]:hover,
+.updateForm button[type="submit"]:hover  {
+  background-color: #45a049;
+}
+
+.Fullform {
+  display: flex;
+}
